@@ -4,7 +4,7 @@ var maxLife;
 
 function setup(){
     backgroundColor = color(options.Background);
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth-8, windowHeight-9);
     background(options.Background);
     for(var i = 0; i < 2500; i++){
         particles[i] = new Particle();
